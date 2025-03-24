@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+.sw
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# MongoDB database files
+/data/db
+
+# Production files
+/public/static
+
+# React files
+*.cache
+.next/
+
+# Miscellaneous
+*.bak
+*.tmp

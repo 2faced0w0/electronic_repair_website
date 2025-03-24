@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: #007bff;
+  }
+
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .nav-link.focused {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .nav-link.focused a {
+    color: white;
+  }
